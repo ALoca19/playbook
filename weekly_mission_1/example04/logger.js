@@ -1,3 +1,4 @@
+//Constructor
 class Logger {
     constructor(name) {
       // this es una variable para referenciar el valor del contexto local de esta clase
@@ -15,6 +16,7 @@ class Logger {
     verbose (message) {
       console.log(`[Objeto con nombre: ${this.name}] verbose: ${message}`)
     }
+
   }
   
   // Esta clase se exporta en este módulo
